@@ -3,7 +3,7 @@ import type { CarouselSlide } from '@typescript/types';
 export const carouselMarcas: CarouselSlide[] = [
   {
     id: '1',
-    marca: 'Chão ao Prato',
+    marca: 'Do Chão à Mesa',
     tagline: 'Da terra à sua mesa',
     descricao:
       'Linha exclusiva zero agrotóxicos e zero pesticidas. Produtos orgânicos certificados com rastreabilidade total.',
@@ -65,10 +65,10 @@ export const carouselMarcas: CarouselSlide[] = [
 ];
 
 export const campanhaChaoAMesa = {
-  titulo: 'Campanha Chão ao Prato',
+  titulo: 'Campanha Do Chão à Mesa',
   subtitulo: 'Zero pesticidas. Zero agrotóxicos. 100% confiança.',
   descricao:
-    'Produtos cultivados com respeito à terra e à sua saúde. Do chão ao prato da sua família, com rastreabilidade completa e selo de qualidade Mercadolar.',
+    'Produtos cultivados com respeito à terra e à sua saúde. Do chão à mesa da sua família, com rastreabilidade completa e selo de qualidade Mercadolar.',
   beneficios: [
     'Certificação orgânica',
     'Sem agrotóxicos',
