@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" role="img" aria-label="Mercadolar">
+  <defs>
+    <linearGradient id="sunW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC933"/>
+      <stop offset="100%" stop-color="#FFB800"/>
+    </linearGradient>
+    <linearGradient id="leafW" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F6B3A"/>
+      <stop offset="100%" stop-color="#3DA866"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="8" width="64" height="64" rx="16" fill="#2D8A4E"/>
+  <circle cx="54" cy="18" r="9" fill="url(#sunW)"/>
+  <path d="M20 52 L36 24 L52 52 Z" fill="url(#leafW)"/>
+  <text x="36" y="58" text-anchor="middle" fill="white" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="14">M</text>
+
+  <text x="84" y="38" fill="white" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="28">Mercadolar</text>
+  <text x="84" y="58" fill="#FFB800" font-family="Inter,Arial,sans-serif" font-weight="600" font-size="11" letter-spacing="2">VAREJO &amp; ATACADO</text>
+  <text x="84" y="72" fill="#C5DAF2" font-family="Inter,Arial,sans-serif" font-weight="600" font-size="9" letter-spacing="1">ECONOMIA DE VERDADE</text>
+</svg>

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-merca-blue-50: #e8f1fa;
+  --color-merca-blue-100: #c5daf2;
+  --color-merca-blue-500: #0066b3;
+  --color-merca-blue-700: #003d7a;
+  --color-merca-blue-900: #002855;
+
+  --color-merca-green-400: #3da866;
+  --color-merca-green-500: #2d8a4e;
+  --color-merca-green-600: #1f6b3a;
+
+  --color-merca-red-500: #e31e24;
+  --color-merca-red-600: #c4191e;
+
+  --color-merca-gold-400: #ffc933;
+  --color-merca-gold-500: #ffb800;
+
+  --color-merca-orange-500: #f47b20;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    @apply bg-white text-slate-800 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient-merca {
+    @apply bg-gradient-to-r from-merca-blue-700 via-merca-green-500 to-merca-blue-500 bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .promo-badge {
+    @apply inline-flex items-center rounded-full bg-merca-red-500 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white;
+  }
+
+  .section-padding {
+    @apply px-4 py-16 md:px-8 lg:px-16 lg:py-24;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.35s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
