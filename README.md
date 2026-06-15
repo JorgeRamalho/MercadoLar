@@ -1,51 +1,16 @@
-# Mercadolar — Site Institucional
+📌 # Padocafé ☕🍞 - A padaria do seu barirro
 
-Site para a rede de supermercados **Mercadolar**, com foco em varejo e atacado, programa de fidelidade, promoções e cadastro de clientes.
+🌐 ## Website Link do projeto online: https:/mercadolar.vercel.app/
 
-## Estrutura de Pastas
+📂 ## Repositório: https://github.com//JorgeRamalho/Mercadolar
 
-```
-Projeto-Mercadolar/
-├── html/                  # Arquivos HTML
-│   └── index.html
-├── css/                   # Estilos
-│   └── style.css
-├── javascript/            # JavaScript puro
-│   ├── app.js
-│   ├── config.js
-│   ├── helpers.js
-│   └── config.d.ts
-├── typescript/            # TypeScript (tipos, dados, utilitários)
-│   ├── types/
-│   ├── utils/
-│   └── data/
-├── react/                 # Componentes e páginas React
-│   ├── main.tsx
-│   ├── App.tsx
-│   ├── components/
-│   └── pages/
-└── public/                # Assets estáticos (favicon, imagens)
-```
+💻 ## Tecnologias
 
-## Funcionalidades
+Html Css JavaScript React Typescript Node.js 📲 ## Funcionalidades
 
-- **Home** — Hero, estatísticas, categorias, promoções em destaque
-- **Clube Mercadolar** — Níveis, cashback, prêmios, cartão de crédito
-- **Promoções** — Encartes, combos, cashback com filtros
-- **Cadastro** — Formulário com validação e geração de cartão virtual
-- **Varejo** / **Atacado** — Páginas dedicadas por perfil de compra
+Fotos e Imaganes Vídeos Layout Website Style
 
-## Executar
+📠 ## Como executar git clone ... 
+npm install npm run dev
 
-```bash
-npm install
-npm run dev
-```
-
-Abra [http://localhost:5173](http://localhost:5173)
-
-## Build
-
-```bash
-npm run build
-```
+💿 ## Autor 📄Seu nome: Jorge R. Barbosa 💼 LinkedIn: https://www.linkedin.com/in/jorge-r-barbosa-aabb0417b/ 👾 GitHub: https://github.com/JorgeRamalho ☎️ Contato: ++ 55 41 99143-4153
