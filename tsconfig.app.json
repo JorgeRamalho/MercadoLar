@@ -9,10 +9,10 @@
     "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
-      "@react/*": ["react/*"],
-      "@typescript/*": ["typescript/*"],
-      "@css/*": ["css/*"],
-      "@js/*": ["javascript/*"]
+      "@/*": ["src/*"],
+      "@react/*": ["src/*"],
+      "@typescript/*": ["src/*"],
+      "@css/*": ["src/styles/*"]
     },
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -25,5 +25,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["react", "typescript", "javascript"]
+  "include": ["src"]
 }
